@@ -28,6 +28,14 @@ services:
             - meilisearch
             - mailpit
             - selenium
+    phpmyadmin:
+        image: 'phpmyadmin:latest'
+        ports:
+            - 8080:80
+        networks:
+            - sail
+        environment:
+            - PMA_ARBITRARY=1
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:

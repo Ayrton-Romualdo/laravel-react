@@ -1,11 +1,12 @@
 import './App.css'
+import { BeakerIcon } from '@heroicons/react/24/solid'
 
 function App() {
 
   return (
     <div className='bg-purple-300'>
       App.jsx
-      teste
+      <BeakerIcon className='w-4' />
     </div>
   )
 }

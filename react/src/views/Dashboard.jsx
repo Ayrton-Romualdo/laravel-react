@@ -1,5 +1,9 @@
+import PageComponent from "../components/PageComponent";
+
 export default function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <PageComponent title='Dashboard'>
+      Children
+    </PageComponent>
   )
 }
